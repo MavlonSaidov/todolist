@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: lightblue;
+    margin: 50px 0 30px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.3);
+}
+
+input {
+    font-size: 45px;
+    border: none;
+    outline: none;
+    color: lightblue;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.div-el {
+    width: 100%;
+    font-size: 35px;
+    color: lightcoral;
+    border-top: 1px solid #e1e1e1;
+    text-align: left;
+    padding: 0 20px;
+    overflow: auto;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    height: 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: .3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.cube {
+    width: 200px;
+    margin: 300px auto;
+    position: relative;
+    animation: aylantirish 5s linear infinite;
+    transform-style: preserve-3d;
+}
+.box {
+    width: 400px;
+    height: 400px;
+    background: rgba(240, 128, 128, 0.454);
+    text-align: center;
+    line-height: 400px;
+    color: white;
+    font-size: 30px;
+    border: 1px solid blue;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: perspective(500px);
+}
+
+
+.front {
+    transform:  translateZ(200px);
+}
+.back {
+    transform:   translateZ(-200px) ;
+}
+.right {
+    transform:  rotateY(90deg) translateZ(200px);
+    background: rgba(255, 166, 0, 0.44);
+}
+.left {
+    transform: rotateY(90deg) translateZ(-200px);
+    background: rgba(255, 166, 0, 0.44);
+}
+.bottom {
+    transform: rotateX(90deg) translateZ(-200px);
+    background: rgba(53, 178, 219, 0.468);
+}
+.top {
+    transform: rotateX(90deg) translateZ(200px);
+    background: rgba(53, 178, 219, 0.468);
+}
+
+
+@keyframes aylantirish {
+  
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg)
+    }
+} */
+
+
